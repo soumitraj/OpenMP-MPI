@@ -1,0 +1,3 @@
+This example shows how matrix transpose is performed using MPI_Alltoall.
+Compile using: mpicc test.c
+Run using:     mpirun -np 4 ./a.out

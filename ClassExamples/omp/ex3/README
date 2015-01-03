@@ -1,0 +1,11 @@
+This example demonstrates how to use MPI_Scatter and MPI_Gather to calculate
+the average of numbers. It also demonstrates the use of OpenMP with an orphaned directive.
+Compile: mpicc test.c -openmp
+Run:     mpirun -np <numProcs> ./a.out
+
+Examples of run:
+
+mpirun -np 4 ./a.out
+mpirun -np 10 ./a.out
+mpirun -np 22 ./a.out
+ 

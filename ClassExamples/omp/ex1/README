@@ -1,0 +1,11 @@
+This example shows how a for loop is statically scheduled across a 
+group of OpenMP threads.
+Compile using: mpicc test.c -openmp
+
+Set environment variable OMP_NUM_THREADS, which represents the number 
+of threads the program will use when it runs.
+export OMP_NUM_THREADS=<numThreads>
+e.g.
+export OMP_NUM_THREADS=5
+
+Run using:     ./a.out

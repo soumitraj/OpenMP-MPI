@@ -1,0 +1,11 @@
+This example demonstrates how to use MPI_reduce to calculate the 
+average of numbers
+Compile: mpicc test.c
+Run:     mpirun -np <numProcs> ./a.out
+
+Examples of run:
+
+mpirun -np 4 ./a.out
+mpirun -np 10 ./a.out
+mpirun -np 22 ./a.out
+ 

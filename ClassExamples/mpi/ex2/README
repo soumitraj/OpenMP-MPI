@@ -1,0 +1,12 @@
+This example shows how matrix transpose is performed using MPI_Sendrecv.
+Compile using: mpicc -g test.c -lm
+Run using:     mpirun -np 4 ./a.out
+To debug:
+1) enable the code marked "for debugging"
+2) compile
+3) run 
+4) open 4 terminals
+5) run: gdb ./a.out <processid> 
+6) get processid using ps -ef | grep <loginName>
+7) for each gdb use a different processid.
+
